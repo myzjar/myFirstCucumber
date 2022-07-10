@@ -1,9 +1,9 @@
 Feature: Purchase Functionality of Demoblaze Application
   As a buyer, I should be able navigate through products
   so that I can purchase from application online
-@wip
+  @wip
   Scenario: Adding product to cart
     Given buyer is on the homepage og demoblaze
-    When buyer adds from "Laptops" category "Sony vaio i5" product to cart
+    When buyer adds from "Phones" category "Samsung galaxy s6" product to cart
     And buyer clicks on "Cart" link
-    Then buyer should see "Sony vaio i5" is added to cart
+    Then buyer should see "Samsung galaxy s6" is added to cart
